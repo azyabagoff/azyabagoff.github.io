@@ -4,7 +4,8 @@ if (!votes)
 {
   votes = document.getElementById("votes").innerHTML ="0 votes";
 }
-counter = votes[0];
+var arr_votes = votes.split(' ');
+counter = arr_votes[0];
 
 function upvote() 
 {
