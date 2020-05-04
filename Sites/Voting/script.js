@@ -1,6 +1,17 @@
 <?php 
-  echo readfile("https://azyabagoff.github.io/Sites/Voting/config.txt");
+$fp = fopen("https://azyabagoff.github.io/Sites/Voting/config.txt", "rt");
+$text = fgets($fp, 100);
+fclose($fp);
 ?>
+  var text = "<?php echo $text ?>";
+if(text)
+{
+ document.getElementById("votes").innerHTML = "1000 votes " + "text"; 
+}
+else
+{
+  document.getElementById("votes").innerHTML = "1 votes";
+}
 
 var votes = document.getElementById("votes").innerHTML =localStorage.getItem("voting");
 if (!votes) 
