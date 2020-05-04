@@ -1,17 +1,3 @@
-<?php 
-$fp = fopen("https://azyabagoff.github.io/Sites/Voting/config.txt", "rt");
-$text = fgets($fp, 100);
-fclose($fp);
-?>
-  var text = "<?php echo $text ?>";
-if(text)
-{
- document.getElementById("todo").innerHTML = "isText: " + text; 
-}
-else
-{
-  document.getElementById("todo").innerHTML = "noText";
-}
 
 var votes = document.getElementById("votes").innerHTML =localStorage.getItem("voting");
 if (!votes) 
