@@ -6,11 +6,11 @@ fclose($fp);
   var text = "<?php echo $text ?>";
 if(text)
 {
- document.getElementById("votes").innerHTML = "1000 votes " + "text"; 
+ document.getElementById("todo").innerHTML = "isText: " + text; 
 }
 else
 {
-  document.getElementById("votes").innerHTML = "1 votes";
+  document.getElementById("todo").innerHTML = "noText";
 }
 
 var votes = document.getElementById("votes").innerHTML =localStorage.getItem("voting");
