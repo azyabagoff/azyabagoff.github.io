@@ -1,3 +1,7 @@
+<?php 
+  echo readfile("https://azyabagoff.github.io/Sites/Voting/config.txt");
+?>
+
 var votes = document.getElementById("votes").innerHTML =localStorage.getItem("voting");
 if (!votes) 
 {
