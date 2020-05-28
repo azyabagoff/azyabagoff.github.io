@@ -1,0 +1,79 @@
+#index_body {
+ background-color: yellowgreen;
+}
+
+#block1_main{
+background: green;
+border: solid green;
+}
+
+#ecogen{
+font-family: 'Lato', sans-serif;
+font-size: 250%;
+font-weight: bold;
+color: white;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#main_text{
+font-family: 'Lato', sans-serif;
+color: Bisque;
+/*background: LimeGreen;
+border: solid 10px LimeGreen;*/
+margin: 0px;
+position: absolute;
+top: 300px;
+right: 100px;
+}
+
+#img_main_div{
+
+}
+
+#img_main{
+margin: 35px;
+}
+
+#block2_main{
+/*background: Khaki;*/
+border: solid 35px yellowgreen;
+}
+
+#waste-types{
+text-decoration: none;
+margin: 110px;
+color: white;
+background: green;
+border: solid 10px green;
+border-radius: 50%;
+/*position: absolute;
+top: 120px;
+right: 50px;*/
+}
+
+#marks{
+text-decoration: none;
+margin: 110px;
+color: white;
+background: green;
+border: solid 10px green;
+border-radius: 50%;
+/*position: absolute;
+top: 120px;
+left: 50px;*/
+}
+
+#where{
+text-decoration: none;
+margin: 110px;
+color: white;
+background: green;
+border: solid 10px green;
+border-radius: 50%;
+/*position: absolute;
+top: 120px;
+left: 550px;*/
+}
+
